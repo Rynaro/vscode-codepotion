@@ -36,13 +36,15 @@ def copy_files(from_location, to_location):
     copy(file, to_location)
 
 def install_font():
-  prepare_folder('~/.fonts')
-  copy_files('./fonts/*.ttf', '~/.fonts/')
-  # subprocess.call(['fc-cache', '-f', '-v'])
+  target_location = '{}/.fonts'.format(os.path.expanduser('~'))
+  prepare_folder(target_location)
+  copy_files('./fonts/*.ttf', target_location)
+  subprocess.call(['fc-cache', '-f', '-v'])
 
 def configure_editor_preferences():
-  prepare_folder('~/.config/Code/User')
-  copy_files('./preferences/*.json', '~/.config/Code/User')
+  target_location = '{}/.config/Code/User'.format(os.path.expanduser('~'))
+  prepare_folder(target_location)
+  copy_files('./preferences/*.json', target_location)
 
 def main():
   if check_vscode_existence():

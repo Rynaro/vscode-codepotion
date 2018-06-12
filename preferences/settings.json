@@ -1,0 +1,24 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
+  "editor.fontSize": 14,
+  "editor.rulers": [
+      80,
+      100,
+  ],
+  "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Hack",
+  "gitlens.historyExplorer.enabled": true,
+  "workbench.iconTheme": "material-icon-theme"
+}

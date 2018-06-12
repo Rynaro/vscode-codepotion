@@ -1,0 +1,25 @@
+[
+  {
+      "key": "ctrl+alt+right",
+      "command": "workbench.action.terminal.focusNext",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "ctrl+alt+left",
+      "command": "workbench.action.terminal.focusPrevious",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "ctrl+alt+t",
+      "command": "workbench.action.terminal.focus"
+  },
+  {
+      "key": "ctrl+alt+t",
+      "command": "workbench.action.terminal.newInActiveWorkspace",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "ctrl+alt+p",
+      "command": "workbench.action.problems.focus"
+  }
+]

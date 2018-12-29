@@ -13,7 +13,8 @@ EXT_PACKAGES = [
   'octref.vetur',
   'oderwat.indent-rainbow',
   'riccardoNovaglia.missinglineendoffile',
-  'shardulm94.trailing-spaces'
+  'shardulm94.trailing-spaces',
+  'mjmcloug.vscode-elixir'
 ]
 
 def check_vscode_existence():

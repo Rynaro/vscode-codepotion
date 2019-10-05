@@ -1,25 +1,25 @@
 [
   {
-      "key": "ctrl+alt+right",
+      "key": "ctrl+shift+right",
       "command": "workbench.action.terminal.focusNext",
       "when": "terminalFocus"
   },
   {
-      "key": "ctrl+alt+left",
+      "key": "ctrl+shift+left",
       "command": "workbench.action.terminal.focusPrevious",
       "when": "terminalFocus"
   },
   {
-      "key": "ctrl+alt+t",
+      "key": "ctrl+shift+t",
       "command": "workbench.action.terminal.focus"
   },
   {
-      "key": "ctrl+alt+t",
+      "key": "ctrl+shift+t",
       "command": "workbench.action.terminal.newInActiveWorkspace",
       "when": "terminalFocus"
   },
   {
-      "key": "ctrl+alt+p",
+      "key": "ctrl+shift+p",
       "command": "workbench.action.problems.focus"
   }
 ]

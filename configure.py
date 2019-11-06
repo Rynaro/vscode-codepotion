@@ -14,7 +14,8 @@ EXT_PACKAGES = [
   'oderwat.indent-rainbow',
   'riccardoNovaglia.missinglineendoffile',
   'shardulm94.trailing-spaces',
-  'mjmcloug.vscode-elixir'
+  'mjmcloug.vscode-elixir',
+  'aaron-bond.better-comments'
 ]
 
 def check_vscode_existence():

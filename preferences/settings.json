@@ -20,5 +20,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "'Fira Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
   "gitlens.historyExplorer.enabled": true,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "files.insertFinalNewline": true
 }

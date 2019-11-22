@@ -12,7 +12,6 @@ EXT_PACKAGES = [
   'eamodio.gitlens',
   'octref.vetur',
   'oderwat.indent-rainbow',
-  'riccardoNovaglia.missinglineendoffile',
   'shardulm94.trailing-spaces',
   'mjmcloug.vscode-elixir',
   'aaron-bond.better-comments'
